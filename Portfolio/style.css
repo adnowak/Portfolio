@@ -13,53 +13,73 @@ body
 #infoSection
 {
 	background: rgba(200,200,200, 0.3);
-	padding: 40px;
-	margin: 40px;
+	padding: 2%;
+	margin: 2%;
 	width: 40%;
-	border-radius: 10px 10px 10px 10px; 
+	border-radius: 2% 2% 2% 2%; 
 	float: left;
+	
+	font-family: 'Archivo', sans-serif;
 }
 
 #contentSection
 {
 	background: rgba(200,200,200, 0.3);
-	height: 790px;
+	height: 81vh;
 	width: 40%;
-	padding: 40px;
-	margin: 40px;
-	border-radius: 10px 10px 10px 10px; 
+	padding: 2%;
+	margin: 2%;
+	border-radius: 1% 1% 1% 1%;
 	float: right;
 	
 	color: #efefef;
 	font-size: 20px;
 }
 
-#langDiv
+.langDiv
 {
 	position: fixed;
-	left: 40px;
-	bottom: 40px;
 	opacity: 0.3;
 	transition: opacity 0.1s ease-in-out;
+	width: 2.3%;
 }
 
-#langDiv:hover
+#engLangDiv
+{
+	left: 2%;
+	bottom: 4%;
+}
+
+#polLangDiv
+{
+	left: 4.3%;
+	bottom: 4%;
+}
+
+.langDiv:hover
 {
 	opacity: 0.7;
 }
 
-#langPicture
+.langPicture
 {
-	width: 80px;
+	width: 100%;
 }
 
-img
+#profilePicture
 {
-	width: 300px;
+	width: 40%;
+	transition: opacity 0.1s ease-in-out;
+}
+
+#profilePicture:hover
+{
+	opacity: 0.9;
 }
 
 h1
 {
+	font-size: 1.3vw;
 	color: #efefef;
 	padding: 0;
 	margin: 0;
