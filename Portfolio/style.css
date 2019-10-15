@@ -36,6 +36,18 @@ section.text {
     margin: 2%;
 }
 
+article.bookDescription {
+    width: 68%;
+    margin-right: 2%;
+    float: left;
+}
+
+aside.bookAdvertisment {
+    width: 28%;
+    margin-right: 2%;
+    float: right;
+}
+
 h4 {
     margin: 0px;
 }
