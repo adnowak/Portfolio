@@ -42,7 +42,31 @@ article.bookDescription {
     float: left;
 }
 
+article.channelDescription {
+    width: 68%;
+    margin-right: 2%;
+    float: left;
+}
+
+article.projectDescription {
+    width: 68%;
+    margin-right: 2%;
+    float: left;
+}
+
 aside.bookAdvertisment {
+    width: 28%;
+    margin-right: 2%;
+    float: right;
+}
+
+aside.channelExample {
+    width: 28%;
+    margin-right: 2%;
+    float: right;
+}
+
+aside.projectScreenshot {
     width: 28%;
     margin-right: 2%;
     float: right;
